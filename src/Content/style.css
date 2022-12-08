@@ -1,0 +1,18 @@
+.Content {
+    min-height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:#E7F2F8
+   
+}
+
+.Content >section {
+    width:80%;
+    border-radius: 0 30px;
+    border:1px solid black;
+    box-shadow:inset -5px -5px 10px black,5px 5px 10px black;
+    min-height:70vh;
+    background: #EFE7BC;
+    
+}

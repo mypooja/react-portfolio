@@ -1,0 +1,10 @@
+.Portfolio  {
+    
+    margin:3%;
+    text-align:center;
+}
+.Portfolio .cardBox{
+    display: flex;
+
+    flex-wrap:wrap;
+}

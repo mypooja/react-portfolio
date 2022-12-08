@@ -1,0 +1,24 @@
+.Footer {
+    height:10vh;
+    /* text-align:center; */
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer >ul {
+ display:flex;
+ list-style-type: none;
+ justify-content: space-around;
+ width:50%;
+}
+
+.Footer a, .Footer a:visited {
+    color:black
+}
+
+.Footer a:hover {
+    opacity:0.5
+}

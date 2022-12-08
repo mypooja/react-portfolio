@@ -1,0 +1,32 @@
+.Contact {
+    margin:3%;
+    display: flex;
+    flex-direction:column;
+}
+
+.Contact div {
+    display: flex;
+    flex-direction:column;
+    /* justify-content: space-between; */
+    width:33%;
+}
+
+.Contact > form > div > input, .Contact > form > div > textarea {
+    margin:1%;
+    border:none;
+    outline:none;
+    background:none;
+    border-bottom:1px solid black;
+} 
+.Contact > form > div > input:focus, .Contact > form > div > textarea:focus {
+    background:rgba(255,255,255,0.7)
+} 
+.Contact > form > div > textarea {
+    border:2px solid black
+}
+
+.Contact button {
+    font-size: 36px;
+}
+
+
