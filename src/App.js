@@ -3,7 +3,7 @@ import Header from "./Header"
 import Footer from "./Footer";
 import "./App.css"
 import Content from "./Content";
-import react,{useState} from 'react'
+import {useState} from 'react'
 
 function App() {
   const [currPage,setCurrentPage]  = useState("About");

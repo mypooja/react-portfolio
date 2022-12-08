@@ -7,8 +7,8 @@ export default function PortfolioCard({data}) {
             <img src = {data.img} alt = {data.name}/>
             <div className="overlay">
                 <div className="links">
-                <a href={data.deploy} target="_blank"> <h3>{data.name}</h3></a>
-                <a href={data.github} target="_blank">👀</a>
+                <a href={data.deploy}> <h3>{data.name}</h3></a>
+                <a href={data.github}>👀</a>
                 </div>
             </div>
         </div>
